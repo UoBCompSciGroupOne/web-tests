@@ -1,0 +1,18 @@
+#headline {
+	padding: 0.8em;
+	color: white;
+	font-family: HelveticaNeue, Verdana, Arial, sans-serif;
+	text-align: center;
+	background: #5CB8E6;
+}
+
+#pinstatus {
+	padding: 0.8em;
+	color: #5CB8E6;
+	font-family: HelveticaNeue, Verdana, Arial, sans-serif;
+}
+
+#upbutton, #downbutton {
+	padding: 20px 20px;
+	color: #5CB8E6;
+}

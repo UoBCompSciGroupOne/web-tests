@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+	<title>Light Up</title>
+	<script type="text/javascript" src="zepto.min.js"></script>
+	<script type="text/javascript" src="pincontrol.js"></script>
+</head>
+<body>
+	<div id="headline">
+		<h1>Yun Lights</h1>
+	</div>
+
+	<div id="pinstatus">
+		<h3>PIN STATUS:</h3>
+		<div id="message" style="margin: 1em 1em"></div>
+	</div>
+
+	<input type="button" id="upbutton" value="Light Up" onclick="lightup();" />
+	<input type="button" id="downbutton" value="Light Down" onclick="lightdown();" />
+
+</body>
+</html>
